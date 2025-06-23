@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title> 
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="nav" id="nav"> 
+    <img src="New folder/netflix-logo-0.png" alt="" class="nav__logo">
+    <img src="New folder/Netflix-avatar.png" alt="" class="nav__avatar">
+</div>
+
+   <!-- Header -->
+   <div class="banner">
+    <div class="banner_content">
+        <h1 class="banner_title"> Money Heist</h1>
+        <div class="banner_buttons">
+           <button class="banner_button"> Play </button>
+           <button class="banner_button"> My List </button>
+        </div>
+        <div class="banner_description">
+            Eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind manipulates
+            the police to carry out his plan. Watch all you want. This riveting crime series won Best Drama at the International Emmy Awards, Premios Fénix 
+             and Premios Iris (plus six more Iris wins).
+        </div>
+    </div>
+    <div class="banner--fadeBottom"></div>
+   </div>
+  <!-- Netflix Originals -->
+    <div class ="row">
+            <h2> NETFLIX ORIGINALS </h2>
+            <div class="row_poster">
+                <img src="https://image.tmdb.org/t/p/original/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg" alt="" class="row_poster row_posterLarge">
+                <img src="New folder/wedding-season-2022-1670279053.png".jpg" alt="" class="row_poster row_posterLarge">
+                <img src="New folder/Bhakshak_film_poster.jpg" alt="" class="row_poster row_posterLarge">
+                <img src="New folder/download.jpg" alt="" class="row_poster row_posterLarge">
+                <img src="New folder/vDGr1YdrlfbU9wxTOdpf3zChmv9.webp" alt="" class="row_poster row_posterLarge">   
+                <img src="New folder/images (6).jpg" alt="" class="row_poster row_posterLarge">
+                <img src="New folder/cirkus-Bollywood-movies-in-December.jpg" alt="" class="row_poster row_posterLarge">
+                <img src="New folder/images (9).jpg".jpg" alt="" class="row_poster row_posterLarge">
+                <img src="New folder/Bhakshak_film_poster.jpg" alt="" class="row_poster row_posterLarge">
+                <img src="New folder/images (7).jpg" alt="" class="row_poster row_posterLarge">
+                <img src="New folder/Pinkmovieposter.jpg" alt="" class="row_poster row_posterLarge">
+                <img src="New folder/best-movies-on-netflix-the-mother-6478b59716093.jpg" alt="" class="row_poster row_posterLarge">
+                <img src="New folder/vDGr1YdrlfbU9wxTOdpf3zChmv9.webp" alt="" class="row_poster row_posterLarge">   
+                <img src="New folder/An_Action_Hero_film_poster.jpg" alt="" class="row_poster row_posterLarge"> 
+                <img src="New folder/images (6).jpg" alt="" class="row_poster row_posterLarge"> 
+        </div>
+
+    <!--Trending Now-->
+    <div class="row">
+        <h2> Trending Now </h2>
+        <div class="row_poster">
+            <img src="New folder/AAAABW1L-jouuT99F1Dd1IDYy9a7zmgheeRRDJgC1puRjk_T-nXnAAlZ1gtpyr-dr7N-5EMPufsOchh6RqoroOCTm14cWeCNoekm8aE1EtVNlSq9OeMhFzDvAHG5m6xkwU26EOLEnE8VnDCy4ZjYP4o4Qc_yRFvfwX0k1Kh42PDzHCAHEDyaO2ouItQ_DsmR.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABc_Fd3E9N3g30saDvc0gYuEosfmvpNj7GpSxkbaTFhq9e7td0P3AVjz3ZVAyErg2M1m1S4iHYF7zAxZqOoM8VHQ0Xac2iRAyAdOU8Os15WA3iD7UAnXzNL3uB_05KV6DP6PLRTRZhskfVrxuUg34GzLBIsaiPS8CzH6L67Rgu651rcIbu_yuLzaRRdj3.jpg".jpg" alt="" class="row_poster ">
+            <img src="New folder/images (5).jpg" alt="" class="row_poster ">
+            <img src="New folder/images (10).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABQMbGSxazR6nDcQxxM6AX8_bcPhrdbGj_jNjnNBMRgg8siUU6r6Ozol-cNHA6RuQ2EVy6I4wFmSBjBIHwSKtP3TEzno1SxGmUh0.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABeZ3rE6u1Kf-PX6OQyd168pA6DIFTexc1lXd46M8DNH5tU7a_8XlQXph5Oj90C9TwIFhkJmlDSxGCGrNR3J8KYiglA9GO4Qc9lc.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABX1QUpF8NmzMb_tcRUiwlaXYhTQDzPEc4FjzXMgFqMRretaZmoN5pO4OfNgvJYd0NljRSW6NZlsm_Pb2J_c41w-gVzhjj9JNHTDm8M7yk7pTcTUL74qnCK6rIYrwkYW_3fCmQiZ7nNSuLlwWgFot923cTCrP9B8DE3xx3rei3JKOVohTlFSTxWGd9smW.jpg" alt="" class="row_poster ">
+            <img src="New folder/images (10).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABboxovgD9M9H8qn5adYxOVMSIQ7rWu6AILOrMQwoZm4_0U_eIP2r6wYByziwj7hiAGu1j3ohIhd-RKsLoOqGH45Et7tD7Byybdk.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABW1L-jouuT99F1Dd1IDYy9a7zmgheeRRDJgC1puRjk_T-nXnAAlZ1gtpyr-dr7N-5EMPufsOchh6RqoroOCTm14cWeCNoekm8aE1EtVNlSq9OeMhFzDvAHG5m6xkwU26EOLEnE8VnDCy4ZjYP4o4Qc_yRFvfwX0k1Kh42PDzHCAHEDyaO2ouItQ_DsmR.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABc_Fd3E9N3g30saDvc0gYuEosfmvpNj7GpSxkbaTFhq9e7td0P3AVjz3ZVAyErg2M1m1S4iHYF7zAxZqOoM8VHQ0Xac2iRAyAdOU8Os15WA3iD7UAnXzNL3uB_05KV6DP6PLRTRZhskfVrxuUg34GzLBIsaiPS8CzH6L67Rgu651rcIbu_yuLzaRRdj3.jpg" alt="" class="row_poster ">
+            <img src="New folder/images (10).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABW1L-jouuT99F1Dd1IDYy9a7zmgheeRRDJgC1puRjk_T-nXnAAlZ1gtpyr-dr7N-5EMPufsOchh6RqoroOCTm14cWeCNoekm8aE1EtVNlSq9OeMhFzDvAHG5m6xkwU26EOLEnE8VnDCy4ZjYP4o4Qc_yRFvfwX0k1Kh42PDzHCAHEDyaO2ouItQ_DsmR.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABUnkUVH3bnkGRIWaul4Dh3O6t2-TdIT4XTHGOvj1ivRJsMOUZ9cf6n_512iYaG6vd8Xsbd91dK8zP7J7ZAgnwaAEbKBOlxjQGjE.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABboxovgD9M9H8qn5adYxOVMSIQ7rWu6AILOrMQwoZm4_0U_eIP2r6wYByziwj7hiAGu1j3ohIhd-RKsLoOqGH45Et7tD7Byybdk.jpg" alt="" class="row_poster ">
+        </div>
+    </div>
+
+     <!--Top Rated-->
+     <div class="row">
+        <h2> Top Rated</h2>
+        <div class="row_poster">
+            <img src="New folder/AAAABZtJKyQ1tr-Om7G0qUybGQfyDfanVt_NrZ0-GCZ2gB11k_9oefg1eE1rJm-cdADWOiz-1FMbpaD_G_wMHlI7S6AXJ3d_yGdOPJiluqr0U9vopDVSgAZfNdsneA3xlj33kRpBjyTeaB3X223gi96F1AwhIizAfrh1Xvg.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABeZ3rE6u1Kf-PX6OQyd168pA6DIFTexc1lXd46M8DNH5tU7a_8XlQXph5Oj90C9TwIFhkJmlDSxGCGrNR3J8KYiglA9GO4Qc9lc.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABUnkUVH3bnkGRIWaul4Dh3O6t2-TdIT4XTHGOvj1ivRJsMOUZ9cf6n_512iYaG6vd8Xsbd91dK8zP7J7ZAgnwaAEbKBOlxjQGjE.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABW1L-jouuT99F1Dd1IDYy9a7zmgheeRRDJgC1puRjk_T-nXnAAlZ1gtpyr-dr7N-5EMPufsOchh6RqoroOCTm14cWeCNoekm8aE1EtVNlSq9OeMhFzDvAHG5m6xkwU26EOLEnE8VnDCy4ZjYP4o4Qc_yRFvfwX0k1Kh42PDzHCAHEDyaO2ouItQ_DsmR.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABc_Fd3E9N3g30saDvc0gYuEosfmvpNj7GpSxkbaTFhq9e7td0P3AVjz3ZVAyErg2M1m1S4iHYF7zAxZqOoM8VHQ0Xac2iRAyAdOU8Os15WA3iD7UAnXzNL3uB_05KV6DP6PLRTRZhskfVrxuUg34GzLBIsaiPS8CzH6L67Rgu651rcIbu_yuLzaRRdj3.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABZlEvcVlfZFd3gCloBnNJbbk1GKfoAUaCh0If4M9olDik-aqBSZEkkHuFjwF6BKx5c92b6frTlSaVGbnpagSruheEksPqgyneP86hxsbDMhR04G5hll1H66jtc71AB6wUkFlTathAVCjtgeg4oTjaoWFNME6x3xeNz7POW48zIvemOMpT98hWMKRh6-I.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABZQxRn9Q3TZ9z6qWCGRwmgWEMU6XJB5WalJn7uuhzfTuXOqTxrj7UzQiHdHVGOayE6v9PMbdGqywBBtBqR0VYk-FGmZehnfPWQRUYG4ph697C3r8PqNyOJIyTxNBJ3Z1zMMzghHNEq4K7C2WCi-PLWVg1xmnajwhECn7czoQtbcWuJmerxFQ29xWQrCo.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABVZA2nphjLda9ONUnl4jxu4_pfn55AiyUlbPM-bQwY6LQ--p__N1tJUeKtjTLy1pJDtxD1N1N9J8HR4nBXKB5QA5XXfwUycZy04kGzF5PCT7NB118KBeOJce2-znGA5kU7lU.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABZtJKyQ1tr-Om7G0qUybGQfyDfanVt_NrZ0-GCZ2gB11k_9oefg1eE1rJm-cdADWOiz-1FMbpaD_G_wMHlI7S6AXJ3d_yGdOPJiluqr0U9vopDVSgAZfNdsneA3xlj33kRpBjyTeaB3X223gi96F1AwhIizAfrh1Xvg.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABWnLraWyPSozQW2Cc0Q72H4pmqiWo9duzIGNduN7tAbSpjQz2A2_2xRHT_q1C3YyAbvJNNPPkN6mqNbLRbr9nUTeRYnHAF48NS0.jpg".jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABX1QUpF8NmzMb_tcRUiwlaXYhTQDzPEc4FjzXMgFqMRretaZmoN5pO4OfNgvJYd0NljRSW6NZlsm_Pb2J_c41w-gVzhjj9JNHTDm8M7yk7pTcTUL74qnCK6rIYrwkYW_3fCmQiZ7nNSuLlwWgFot923cTCrP9B8DE3xx3rei3JKOVohTlFSTxWGd9smW.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABW1L-jouuT99F1Dd1IDYy9a7zmgheeRRDJgC1puRjk_T-nXnAAlZ1gtpyr-dr7N-5EMPufsOchh6RqoroOCTm14cWeCNoekm8aE1EtVNlSq9OeMhFzDvAHG5m6xkwU26EOLEnE8VnDCy4ZjYP4o4Qc_yRFvfwX0k1Kh42PDzHCAHEDyaO2ouItQ_DsmR.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABTVYXRCyKOJvjhEjZzBfwWWwU1GgG-mkqB8vj5jBDikd9ZBhTQNQWfOqrZvFubR7YAAyh4Ci5FNmHmTt1ZLlUMv0CB8D1_B8zfs.jpg" alt="" class="row_poster ">
+            <img src="New folder/images (8).jpg" alt="" class="row_poster ">
+            <img src="New folder/692fad_0db570cc4f9f45218e63f3519f40fcbb_mv2_1200x1200.webp" alt="" class="row_poster ">
+        </div>
+    </div>
+
+    <!-- Action Movies-->
+    <div class="row">
+        <h2> Action Movies </h2>
+        <div class="row_poster">
+            <img src="New folder/images (8).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABZtJKyQ1tr-Om7G0qUybGQfyDfanVt_NrZ0-GCZ2gB11k_9oefg1eE1rJm-cdADWOiz-1FMbpaD_G_wMHlI7S6AXJ3d_yGdOPJiluqr0U9vopDVSgAZfNdsneA3xlj33kRpBjyTeaB3X223gi96F1AwhIizAfrh1Xvg.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABboxovgD9M9H8qn5adYxOVMSIQ7rWu6AILOrMQwoZm4_0U_eIP2r6wYByziwj7hiAGu1j3ohIhd-RKsLoOqGH45Et7tD7Byybdk.jpg".jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABX1QUpF8NmzMb_tcRUiwlaXYhTQDzPEc4FjzXMgFqMRretaZmoN5pO4OfNgvJYd0NljRSW6NZlsm_Pb2J_c41w-gVzhjj9JNHTDm8M7yk7pTcTUL74qnCK6rIYrwkYW_3fCmQiZ7nNSuLlwWgFot923cTCrP9B8DE3xx3rei3JKOVohTlFSTxWGd9smW.jpg" alt="" class="row_poster ">
+            <img src="New folder/images (2).jpg" alt="" class="row_poster ">
+            <img src="New folder/images (3).jpg" alt="" class="row_poster ">
+            <img src="New folder/download (1).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABZlEvcVlfZFd3gCloBnNJbbk1GKfoAUaCh0If4M9olDik-aqBSZEkkHuFjwF6BKx5c92b6frTlSaVGbnpagSruheEksPqgyneP86hxsbDMhR04G5hll1H66jtc71AB6wUkFlTathAVCjtgeg4oTjaoWFNME6x3xeNz7POW48zIvemOMpT98hWMKRh6-I.jpg" alt="" class="row_poster ">
+            <img src="New folder/images (2).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABcWzfuLXNw_FZ9Lj5Mu7qkTKag-bRPbMPoK2lwOI1k_eFGfw61mXI_r5EbFyfadXyJZDiffi7Bh8UI5rTsE76ap6qo3j0CaH37I.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABQWMEXrVjNivSY-ToZsctOHsp5FU3pOp_FrWY1y81Xq3pfQNwb3shw3s4s48cv6ZfMIUIDdnPY_B95kNucYGH71JvnrP3ShXkgUZNk_xfeIiDwum4iXO7PjuHp5BiMeX9VHt.jpg" alt="" class="row_poster ">
+            <img src="New folder/images (3).jpg" alt="" class="row_poster ">
+            <img src="New folder/images (10).jpg" alt="" class="row_poster ">
+            <img src="New folder/download (1).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABX1QUpF8NmzMb_tcRUiwlaXYhTQDzPEc4FjzXMgFqMRretaZmoN5pO4OfNgvJYd0NljRSW6NZlsm_Pb2J_c41w-gVzhjj9JNHTDm8M7yk7pTcTUL74qnCK6rIYrwkYW_3fCmQiZ7nNSuLlwWgFot923cTCrP9B8DE3xx3rei3JKOVohTlFSTxWGd9smW.jpg" alt="" class="row_poster ">
+        </div>
+    </div>
+
+    <!-- Comedy Movies-->
+    <div class="row">
+        <h2> Comedy Movies </h2>
+        <div class="row_poster">
+            <img src="New folder/AAAABTVYXRCyKOJvjhEjZzBfwWWwU1GgG-mkqB8vj5jBDikd9ZBhTQNQWfOqrZvFubR7YAAyh4Ci5FNmHmTt1ZLlUMv0CB8D1_B8zfs.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABW1L-jouuT99F1Dd1IDYy9a7zmgheeRRDJgC1puRjk_T-nXnAAlZ1gtpyr-dr7N-5EMPufsOchh6RqoroOCTm14cWeCNoekm8aE1EtVNlSq9OeMhFzDvAHG5m6xkwU26EOLEnE8VnDCy4ZjYP4o4Qc_yRFvfwX0k1Kh42PDzHCAHEDyaO2ouItQ_DsmR.jpg" alt="" class="row_poster ">
+            <img src="New folder/images.jpg".jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABeZ3rE6u1Kf-PX6OQyd168pA6DIFTexc1lXd46M8DNH5tU7a_8XlQXph5Oj90C9TwIFhkJmlDSxGCGrNR3J8KYiglA9GO4Qc9lc.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABUnkUVH3bnkGRIWaul4Dh3O6t2-TdIT4XTHGOvj1ivRJsMOUZ9cf6n_512iYaG6vd8Xsbd91dK8zP7J7ZAgnwaAEbKBOlxjQGjE.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABWnLraWyPSozQW2Cc0Q72H4pmqiWo9duzIGNduN7tAbSpjQz2A2_2xRHT_q1C3YyAbvJNNPPkN6mqNbLRbr9nUTeRYnHAF48NS0.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABa0GxQNa0cSl6xlI_FtIBT8XE_-n5AlrTWUgOKZrR_CYlDtKfHmefJIan5k73664W-9Gn1IikfInwE53bju3kEEuet88o07MMcUSvFzvOG45fvXyYp6OzQe-ULTyOnPStjQ2.jpg" alt="" class="row_poster ">
+            <img src="New folder/images.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABQMbGSxazR6nDcQxxM6AX8_bcPhrdbGj_jNjnNBMRgg8siUU6r6Ozol-cNHA6RuQ2EVy6I4wFmSBjBIHwSKtP3TEzno1SxGmUh0.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABW1L-jouuT99F1Dd1IDYy9a7zmgheeRRDJgC1puRjk_T-nXnAAlZ1gtpyr-dr7N-5EMPufsOchh6RqoroOCTm14cWeCNoekm8aE1EtVNlSq9OeMhFzDvAHG5m6xkwU26EOLEnE8VnDCy4ZjYP4o4Qc_yRFvfwX0k1Kh42PDzHCAHEDyaO2ouItQ_DsmR.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABeZ3rE6u1Kf-PX6OQyd168pA6DIFTexc1lXd46M8DNH5tU7a_8XlQXph5Oj90C9TwIFhkJmlDSxGCGrNR3J8KYiglA9GO4Qc9lc.jpg".jpg" alt="" class="row_poster ">
+            <img src="New folder/images.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABZlEvcVlfZFd3gCloBnNJbbk1GKfoAUaCh0If4M9olDik-aqBSZEkkHuFjwF6BKx5c92b6frTlSaVGbnpagSruheEksPqgyneP86hxsbDMhR04G5hll1H66jtc71AB6wUkFlTathAVCjtgeg4oTjaoWFNME6x3xeNz7POW48zIvemOMpT98hWMKRh6-I.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABWnLraWyPSozQW2Cc0Q72H4pmqiWo9duzIGNduN7tAbSpjQz2A2_2xRHT_q1C3YyAbvJNNPPkN6mqNbLRbr9nUTeRYnHAF48NS0.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABUnkUVH3bnkGRIWaul4Dh3O6t2-TdIT4XTHGOvj1ivRJsMOUZ9cf6n_512iYaG6vd8Xsbd91dK8zP7J7ZAgnwaAEbKBOlxjQGjE.jpg" alt="" class="row_poster ">
+        </div>
+    </div>
+
+    
+    <!-- Horror Movies-->
+    <div class="row">
+        <h2> Horror Movies </h2>
+        <div class="row_poster">
+            <img src="New folder/images (1).jpg" alt="" class="row_poster ">
+            <img src="New folder/images (4).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABVZA2nphjLda9ONUnl4jxu4_pfn55AiyUlbPM-bQwY6LQ--p__N1tJUeKtjTLy1pJDtxD1N1N9J8HR4nBXKB5QA5XXfwUycZy04kGzF5PCT7NB118KBeOJce2-znGA5kU7lU.jpg".jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABbbLZhZQyHugACichtRXXi80LmiNUqSx1BJCj7kGRSn4HylXtQBmhXPYCaEJqKRVs-ZDkXyDP8MBMqg0q_CTAQFd0eYZEpB9Q6y5RkFEacJ0GWqcHyr0SxsBFcN8FrXAa23v.jpg" alt="" class="row_poster ">
+            <img src="New folder/download (1).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABQWMEXrVjNivSY-ToZsctOHsp5FU3pOp_FrWY1y81Xq3pfQNwb3shw3s4s48cv6ZfMIUIDdnPY_B95kNucYGH71JvnrP3ShXkgUZNk_xfeIiDwum4iXO7PjuHp5BiMeX9VHt.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABT8Cfw8fZ1CDPn6H9AebpP-vGvaUSuT_6Fv62iaVOhn26UUYrnrRFpXHGtmdgIsOlLcKQ6AtLXjypr5L9voY_iSVb6PyuVf2OXuUF2kJA9ziW7JxolfEV1aa9dOcyv2F6Fmx.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABVZA2nphjLda9ONUnl4jxu4_pfn55AiyUlbPM-bQwY6LQ--p__N1tJUeKtjTLy1pJDtxD1N1N9J8HR4nBXKB5QA5XXfwUycZy04kGzF5PCT7NB118KBeOJce2-znGA5kU7lU.jpg" alt="" class="row_poster ">
+            <img src="New folder/images (4).jpg" alt="" class="row_poster ">
+            <img src="New folder/images (1).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABbbLZhZQyHugACichtRXXi80LmiNUqSx1BJCj7kGRSn4HylXtQBmhXPYCaEJqKRVs-ZDkXyDP8MBMqg0q_CTAQFd0eYZEpB9Q6y5RkFEacJ0GWqcHyr0SxsBFcN8FrXAa23v.jpg" alt="" class="row_poster ">
+            <img src="New folder/download (1).jpg" alt="" class="row_poster ">
+            <img src="New folder/maxresdefault.jpg" alt="" class="row_poster ">
+            <img src="New folder/images (4).jpg" alt="" class="row_poster ">
+            <img src="New folder/images (2).jpg" alt="" class="row_poster ">
+        </div>
+    </div>
+
+    
+    <!-- Romance Movies-->
+    <div class="row">
+        <h2> Romance Movies </h2>
+        <div class="row_poster">
+            <img src="New folder/AAAABRgyn2wCP8N3JzJhBUcN9CPSBG0IrndJwGFv07CLycv49GI5pmBCUqYr_D_FYj3K2bmWiSaMcXWTn6wPq7oER9w_gC0MugZu1XNF0GntGCyUnp9MVyBd77NIXkT0q1LqCkCH.jpg " alt="" class="row_poster ">
+            <img src="New folder/AAAABc_Fd3E9N3g30saDvc0gYuEosfmvpNj7GpSxkbaTFhq9e7td0P3AVjz3ZVAyErg2M1m1S4iHYF7zAxZqOoM8VHQ0Xac2iRAyAdOU8Os15WA3iD7UAnXzNL3uB_05KV6DP6PLRTRZhskfVrxuUg34GzLBIsaiPS8CzH6L67Rgu651rcIbu_yuLzaRRdj3.jpg " alt="" class="row_poster ">
+            <img src="New folder/AAAABeZ3rE6u1Kf-PX6OQyd168pA6DIFTexc1lXd46M8DNH5tU7a_8XlQXph5Oj90C9TwIFhkJmlDSxGCGrNR3J8KYiglA9GO4Qc9lc.jpg ".jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABUnkUVH3bnkGRIWaul4Dh3O6t2-TdIT4XTHGOvj1ivRJsMOUZ9cf6n_512iYaG6vd8Xsbd91dK8zP7J7ZAgnwaAEbKBOlxjQGjE.jpg " alt="" class="row_poster ">
+            <img src="New folder/images (2).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABX1QUpF8NmzMb_tcRUiwlaXYhTQDzPEc4FjzXMgFqMRretaZmoN5pO4OfNgvJYd0NljRSW6NZlsm_Pb2J_c41w-gVzhjj9JNHTDm8M7yk7pTcTUL74qnCK6rIYrwkYW_3fCmQiZ7nNSuLlwWgFot923cTCrP9B8DE3xx3rei3JKOVohTlFSTxWGd9smW.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABRgyn2wCP8N3JzJhBUcN9CPSBG0IrndJwGFv07CLycv49GI5pmBCUqYr_D_FYj3K2bmWiSaMcXWTn6wPq7oER9w_gC0MugZu1XNF0GntGCyUnp9MVyBd77NIXkT0q1LqCkCH.jpg " alt="" class="row_poster ">
+            <img src="New folder/692fad_0db570cc4f9f45218e63f3519f40fcbb_mv2_1200x1200.webp" alt="" class="row_poster ">
+            <img src="New folder/AAAABeZ3rE6u1Kf-PX6OQyd168pA6DIFTexc1lXd46M8DNH5tU7a_8XlQXph5Oj90C9TwIFhkJmlDSxGCGrNR3J8KYiglA9GO4Qc9lc.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABW1L-jouuT99F1Dd1IDYy9a7zmgheeRRDJgC1puRjk_T-nXnAAlZ1gtpyr-dr7N-5EMPufsOchh6RqoroOCTm14cWeCNoekm8aE1EtVNlSq9OeMhFzDvAHG5m6xkwU26EOLEnE8VnDCy4ZjYP4o4Qc_yRFvfwX0k1Kh42PDzHCAHEDyaO2ouItQ_DsmR.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABUnkUVH3bnkGRIWaul4Dh3O6t2-TdIT4XTHGOvj1ivRJsMOUZ9cf6n_512iYaG6vd8Xsbd91dK8zP7J7ZAgnwaAEbKBOlxjQGjE.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABc_Fd3E9N3g30saDvc0gYuEosfmvpNj7GpSxkbaTFhq9e7td0P3AVjz3ZVAyErg2M1m1S4iHYF7zAxZqOoM8VHQ0Xac2iRAyAdOU8Os15WA3iD7UAnXzNL3uB_05KV6DP6PLRTRZhskfVrxuUg34GzLBIsaiPS8CzH6L67Rgu651rcIbu_yuLzaRRdj3.jpg " alt="" class="row_poster ">
+            <img src="New folder/images (2).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABX1QUpF8NmzMb_tcRUiwlaXYhTQDzPEc4FjzXMgFqMRretaZmoN5pO4OfNgvJYd0NljRSW6NZlsm_Pb2J_c41w-gVzhjj9JNHTDm8M7yk7pTcTUL74qnCK6rIYrwkYW_3fCmQiZ7nNSuLlwWgFot923cTCrP9B8DE3xx3rei3JKOVohTlFSTxWGd9smW.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABRgyn2wCP8N3JzJhBUcN9CPSBG0IrndJwGFv07CLycv49GI5pmBCUqYr_D_FYj3K2bmWiSaMcXWTn6wPq7oER9w_gC0MugZu1XNF0GntGCyUnp9MVyBd77NIXkT0q1LqCkCH.jpg" alt="" class="row_poster ">
+        </div>
+    </div>
+
+
+    <!-- Documentaries-->
+    <div class="row">
+        <h2> Documentaries </h2>
+        <div class="row_poster">
+            <img src="New folder/AAAABQWMEXrVjNivSY-ToZsctOHsp5FU3pOp_FrWY1y81Xq3pfQNwb3shw3s4s48cv6ZfMIUIDdnPY_B95kNucYGH71JvnrP3ShXkgUZNk_xfeIiDwum4iXO7PjuHp5BiMeX9VHt.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABfSurOeyTuVqLDDGulE-7xbJ0RyhJWhF9dQqfbHt7spKRQ4aqmGfeG8sDejBz7HbpRdaiHOpZjoXaWDnq7sveGeIjY8HWkuqZwfm9NDSYS3Dl1aWv_9BcJPghCX7g6PpViB5.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABT8Cfw8fZ1CDPn6H9AebpP-vGvaUSuT_6Fv62iaVOhn26UUYrnrRFpXHGtmdgIsOlLcKQ6AtLXjypr5L9voY_iSVb6PyuVf2OXuUF2kJA9ziW7JxolfEV1aa9dOcyv2F6Fmx.jpg".jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABWODfUhEjEfcYaGzxr3-ozp8FTcJ37OGpdmXu3e3pfE6K0W2SphejoyeAXJckYrXMHDZxlBX3W-mwsj_K9jK-vKrVMvJm46c2C3VKmKYo6h7ExvIaUfCFdFGINYapSuXu7f1.jpg" alt="" class="row_poster ">
+            <img src="New folder/maxresdefault.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABa0GxQNa0cSl6xlI_FtIBT8XE_-n5AlrTWUgOKZrR_CYlDtKfHmefJIan5k73664W-9Gn1IikfInwE53bju3kEEuet88o07MMcUSvFzvOG45fvXyYp6OzQe-ULTyOnPStjQ2.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABbbLZhZQyHugACichtRXXi80LmiNUqSx1BJCj7kGRSn4HylXtQBmhXPYCaEJqKRVs-ZDkXyDP8MBMqg0q_CTAQFd0eYZEpB9Q6y5RkFEacJ0GWqcHyr0SxsBFcN8FrXAa23v.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABYI2M9KSNUVwKYDNSXApT620MOXRxSXT7v4wG_i-oMR3Ab6luxs9Ae3xFtIhrMpT2px4bZX51Nd8Gm-1se6vP6Gtzvo6MQO9PJJ24JqjR3nsMCY956oO_2AkU5Ex-IVupWyZ.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABa0GxQNa0cSl6xlI_FtIBT8XE_-n5AlrTWUgOKZrR_CYlDtKfHmefJIan5k73664W-9Gn1IikfInwE53bju3kEEuet88o07MMcUSvFzvOG45fvXyYp6OzQe-ULTyOnPStjQ2.jpg".jpg" alt="" class="row_poster ">
+            <img src="New folder/maxresdefault.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABWODfUhEjEfcYaGzxr3-ozp8FTcJ37OGpdmXu3e3pfE6K0W2SphejoyeAXJckYrXMHDZxlBX3W-mwsj_K9jK-vKrVMvJm46c2C3VKmKYo6h7ExvIaUfCFdFGINYapSuXu7f1.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABbbLZhZQyHugACichtRXXi80LmiNUqSx1BJCj7kGRSn4HylXtQBmhXPYCaEJqKRVs-ZDkXyDP8MBMqg0q_CTAQFd0eYZEpB9Q6y5RkFEacJ0GWqcHyr0SxsBFcN8FrXAa23v.jpg" alt="" class="row_poster ">
+            <img src="New folder/download (3).jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABa0GxQNa0cSl6xlI_FtIBT8XE_-n5AlrTWUgOKZrR_CYlDtKfHmefJIan5k73664W-9Gn1IikfInwE53bju3kEEuet88o07MMcUSvFzvOG45fvXyYp6OzQe-ULTyOnPStjQ2.jpg" alt="" class="row_poster ">
+            <img src="New folder/AAAABT8Cfw8fZ1CDPn6H9AebpP-vGvaUSuT_6Fv62iaVOhn26UUYrnrRFpXHGtmdgIsOlLcKQ6AtLXjypr5L9voY_iSVb6PyuVf2OXuUF2kJA9ziW7JxolfEV1aa9dOcyv2F6Fmx.jpg".jpg" alt="" class="row_poster ">
+        </div>
+    </div>
+
+<script>
+    const nav = document.getElementById('nav');
+
+    window.addEventListener('scroll', () => {
+        if(window.scrollY >=100) {
+            nav.classList.add('nav__black')
+        } else {
+            nav.classList.remove('nav__black')
+        }
+    })
+</script>
+
+</body>
+</html>
